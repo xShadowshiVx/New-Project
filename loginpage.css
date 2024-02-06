@@ -1,0 +1,182 @@
+.border {
+    border: none;
+    box-shadow: 0px 1px 20px rgb(113, 226, 60);
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+.name {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 100px;
+    font-family: arial;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    z-index: 1;
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    background-color: transparent;
+}
+.Favorite-Anime {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 100px;
+    font-family: arial;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    z-index: 1;
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    background-color: transparent;
+}
+.Favorite-Character {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 3px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 50px;
+    font-family: arial;
+    border-radius: 5px;
+    font-size: 20px;
+    outline: none;
+    z-index: 1;
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    background-color: transparent;
+}
+.animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+.button-text {
+    text-align: center;
+    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.N {
+    position: absolute;
+    padding-bottom: 320px;
+    left: 70px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    z-index: 2;
+    color: white;
+}
+.text {
+    color: greenyellow;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 35px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+input:focus + .N,
+input:valid + .N {
+    color: greenyellow;
+    height: 35px;
+    line-height: 30px;
+    transform: translate(-15px,-16px) scale(1.1);
+    z-index: 10;
+}
+input:focus,
+input:valid {
+    color: greenyellow;
+    border: 4px solid greenyellow;
+}
+.F {
+    position: absolute;
+    padding-bottom: 40px;
+    left: 70px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    z-index: 2;
+    color: white;
+    padding-left: 15px;
+}
+input:focus + .F,
+input:valid + .F {
+    color: greenyellow;
+    font-size: 10px;
+    height: 30px;
+    line-height: 20px;
+    transform: translate(-15px,-16px) scale(1.4);
+    z-index: 10;
+}
+.C {
+    position: absolute;
+    padding-bottom: 0px;
+    padding-top: 240px;
+    left: 70px;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    z-index: 2;
+    color: white;
+    padding-left: 15px;
+}
+input:focus + .C,
+input:valid + .C {
+    color: greenyellow;
+    font-size: 10px;
+    height: 30px;
+    line-height: 20px;
+    transform: translate(10px,10px) scale(1.3);
+    z-index: 10;
+}
+.Submit {
+    width: 150px;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    margin-bottom: 100px;
+    cursor: pointer;
+} 
